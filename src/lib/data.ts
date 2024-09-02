@@ -27,4 +27,19 @@ const milkshakes: Item[] = [
   { name: 'Pineapple Milkshake', regularPrice: 350, jumboPrice: 350 }
 ]
 
-export default milkshakes
+const juices: Item[] = [
+  { name: 'Apple Juice', regularPrice: 280, jumboPrice: 380 },
+  { name: 'Pineapple Juice', regularPrice: 350, jumboPrice: 450 },
+  { name: 'Grapefruit Juice', regularPrice: 200, jumboPrice: 250 },
+  { name: 'White Anar Juice', regularPrice: 400, jumboPrice: 600 },
+  { name: 'Red Anar Juice', regularPrice: 400, jumboPrice: 600 },
+  { name: 'Peach Juice', regularPrice: 250, jumboPrice: 350 },
+  { name: 'Alo Bukhara Juice', regularPrice: 310, jumboPrice: 410 },
+  { name: 'Pina Colada', regularPrice: 380, jumboPrice: 480 },
+  { name: 'Mint Margrita', regularPrice: 180, jumboPrice: 280 },
+  { name: 'Super Lemon', regularPrice: 180, jumboPrice: 280 },
+  { name: 'Fresh Lime', regularPrice: 180, jumboPrice: 280 },
+  { name: 'Cocktail Juice', regularPrice: 360, jumboPrice: 460 }
+]
+
+export { milkshakes, juices }
